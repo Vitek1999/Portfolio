@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/arrow.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile-nav-button.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="container">
+                <ul class="navigation" id="navigation-eng">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me-eng">About me</a></li>
+                    <li><a href="#skills-eng">Skills</a></li>
+                    <li><a href="#portfolio-eng">Portfolio</a></li>
+                    <li><a href="#footer-eng">Contacts</a></li>
+                </ul>
+                <ul class="navigation not-active" id="navigation-ru">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about-me-ru">Обо мне</a></li>
+                    <li><a href="#skills-ru">Навыки</a></li>
+                    <li><a href="#portfolio-ru">Портфолио</a></li>
+                    <li><a href="#footer-ru">Контакты</a></li>
+                </ul>
+                <div class="header-line"></div>
+            </div>
+        </header>
+        <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+        </button>
+        <div class="mobile-nav">
+            <nav class="mobile-nav-list">
+                <ul id="mob-li-eng">
+                    <li><a class="mob-li-1-eng" href="#home">Home</a></li>
+                    <li><a class="mob-li-2-eng" href="#about-me-eng">About me</a></li>
+                    <li><a class="mob-li-3-eng" href="#skills-eng">Skills</a></li>
+                    <li><a class="mob-li-4-eng" href="#portfolio-eng">Portfolio</a></li>
+                    <li><a class="mob-li-5-eng" href="#footer-eng">Contacts</a></li>
+                </ul>
+                <ul id="mob-li-ru" class="not-active">
+                    <li><a class="mob-li-1-ru" href="#home">Главная</a></li>
+                    <li><a class="mob-li-2-ru" href="#about-me-ru">Обо мне</a></li>
+                    <li><a class="mob-li-3-ru" href="#skills-ru">Навыки</a></li>
+                    <li><a class="mob-li-4-ru" href="#portfolio-ru">Портфолио</a></li>
+                    <li><a class="mob-li-5-ru" href="#footer-ru">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-language">
+                <a id="mob-lang-ru" href="#">RU</a> | <a id="mob-lang-eng" href="#" class="lang-active">ENG</a>
+            </div>
+        </div>
+
+        <section id="home" class="home">
+            <div class="container">
+                <div class="home-wrapper">
+                    <div class="home-nav-wrapper">
+                        <h1 id="my-name-eng">Viktor Khramkin</h1>
+                        <h1 id="my-name-ru" class="not-active">Виктор Храмкин</h1>
+                    </div>
+                    <p id="my-text-eng">HTML | CSS developer<br>22 years old, Moscow</p>
+                    <p id="my-text-ru" class="not-active">HTML | CSS разработчик<br>22 года, Москва</p>
+                    <div class="language">
+                        <a id="lang-ru" href="#">RU</a> | <a href="#" id="lang-eng" class="lang-active">ENG</a>
+                    </div>
+                </div>
+                <div class="i-img"></div>
+            </div>
+        </section>
+
+        <section id="about-me-eng" class="about-me">
+            <div class="container">
+                <div class="about-me-wrapper">
+                    <h2>About me</h2>
+                    <div class="about-me-content">
+                        <p>
+                            Hi, I'm Viktor – HTML/CSS developer from Moscow. I'm interested in website development and programming.
+                        </p>
+                        <p>
+                            I am studying at the Moscow Aviation Institute at the Faculty of Control Systems, Computer Science and Electric Power Engineering.
+                        </p>
+                        <p>
+                            Ready to implement excellent projects<br>with wonderful people.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-me-ru" class="about-me not-active">
+            <div class="container">
+                <div class="about-me-wrapper">
+                    <h2>Обо мне</h2>
+                    <div class="about-me-content">
+                        <p>
+                            Привет, меня зовут Виктор - HTML/CSS разработчик из Москвы. Я интересуюсь веб разработкой и програмированием.
+                        </p>
+                        <p>
+                            Я студент Московского Авиационного Института. Учусь на факультете «Системы управления, информатика и электроэнергетика».
+                        </p>
+                        <p>
+                            Готов реализовывать отличные проекты с замечательными людьми.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills-eng" class="skills">
+            <div class="container">
+                <div class="skills-wrapper">
+                    <h2>Skills</h2>
+                    <p>I work in such programs as</p>
+                    <div class="programs">
+                        <div class="card">
+                            <img class="icon-program" src="./img/PS.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Adobe Photoshop</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="icon-program" src="./img/visual-studio-code-2019.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Visual Studio Code</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="icon-program" src="./img/Figma.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Figma</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills-ru" class="skills not-active">
+            <div class="container">
+                <div class="skills-wrapper">
+                    <h2>Навыки</h2>
+                    <p>Я работаю в таких программах, как:</p>
+                    <div class="programs">
+                        <div class="card">
+                            <img class="icon-program" src="./img/PS.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Adobe Photoshop</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="icon-program" src="./img/visual-studio-code-2019.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Visual Studio Code</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="icon-program" src="./img/Figma.svg" alt="program">
+                            <div class="card-wrapper">
+                                <h5>Figma</h5>
+                                <div class="stars">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-black.svg" alt="star">
+                                    <img src="./img/Star-gray.svg" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="portfolio-eng" class="portfolio">
+            <div class="container">
+                <div class="portfolio-wrapper">
+                    <h2>Portfolio</h2>
+                    <div class="websites">
+                        <a class="website-img website-img-1" href="./Felis/index.html"></a>
+                        <a class="website-description" href="./Felis/index.html">Online fashion store - Homepage</a>
+                    </div>
+                    <div class="websites">
+                        <a class="website-img website-img-2" href="./AlivioProject/index.html"></a>
+                        <a class="website-description" href="./AlivioProject/index.html">Alivio, Stress Management - Homepage</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio-ru" class="portfolio not-active">
+            <div class="container">
+                <div class="portfolio-wrapper">
+                    <h2>Портфолио</h2>
+                    <div class="websites">
+                        <a class="website-img website-img-1" href="../FELIS/index.html"></a>
+                        <a class="website-description" href="../FELIS/index.html">Онлайн магазин одежды - главная страница</a>
+                    </div>
+                    <div class="websites">
+                        <a class="website-img website-img-2" href="../AlivioProject/index.html"></a>
+                        <a class="website-description" href="../AlivioProject/index.html">Alivio, забота о стрессе - главная страница</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer id="footer-eng" class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <h2>Contacts</h2>
+                    <p class="chat">Want to know more or just chat?<br>You are welcome!</p>
+                    <a class="btn" href="https://t.me/Vitek99">Send message</a>
+                    <div class="footer-icon">
+                        <a href="#"><img src="./img/Icon1.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="./img/github-logo.svg" alt="github"></a>
+                        <a href="https://hh.ru/resume/642f5904ff09c87f8f0039ed1f6d664c54774e"><img src="./img/hh.png" alt="hh"></a>
+                        <a href="https://t.me/Vitek99"><img src="./img/telegram_icon.svg" alt="telegram"></a>
+                    </div>
+                    <p class="like">Like me on<br>LinkedIn, Github, Headhunter, Telegram</p>
+                </div>
+            </div>
+        </footer>
+        <footer id="footer-ru" class="footer not-active">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <h2>Контакты</h2>
+                    <p class="chat">Хотите узнать больше или просто поболтать?<br>Добро пожаловать!</p>
+                    <a class="btn" href="https://t.me/Vitek99">Написать сооющение</a>
+                    <div class="footer-icon">
+                        <a href="#"><img src="./img/Icon1.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="./img/github-logo.svg" alt="github"></a>
+                        <a href="https://hh.ru/resume/642f5904ff09c87f8f0039ed1f6d664c54774e"><img src="./img/hh.png" alt="hh"></a>
+                        <a href="https://t.me/Vitek99"><img src="./img/telegram_icon.svg" alt="telegram"></a>
+                    </div>
+                    <p class="like">Ищи меня в<br>LinkedIn, Github, Headhunter, Telegram</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </main>
+</body>
+
+</html>
